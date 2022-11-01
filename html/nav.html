@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="html/nav.css">
+<div>&nbsp;</div>
+<p class="nintdeg">Navigation<br/>Bar</p>
+<div>&nbsp;</div>
+
+<nav>
+  <a class="tooltip" href="#home">
+    <p><span class="icon material-symbols-rounded">home</span><span class="tooltiptext">Home</span></p>
+  </a>
+  <a class="tooltip" href="#about">
+    <p><span class="icon material-icons">info</span><span class="tooltiptext">About</span></p>
+  </a>
+  <hr>
+
+
+</nav>
+
+<script>
+  const nav_links = document.querySelectorAll('a');
+  nav_links.forEach(anchor => anchor.addEventListener('click', (event) => {
+    event.preventDefault();
+    nav_links.forEach(anchor => anchor.className = '');
+    anchor.className = 'active';
+  }));
+</script>
