@@ -1,0 +1,20 @@
+:root{
+    --background-1:#23272A;
+    --background-2:#454FBF;
+    --background-3:#7289DA;
+    --background-4:#4E5D94;
+    --neon-1:
+      0 0 10px currentColor;
+    --neon-2:
+      0 0 5px currentColor;
+    --neon-3:
+      0 0 20px currentColor;
+    --neon-4:
+      0 0 15px currentColor;
+    --color-1:white;
+    --border-1:
+      .25ch .25ch 0 currentColor,
+      .30ch .30ch 0 currentColor;
+    --border-2:
+      .10ch .10ch 0 currentColor;
+  }

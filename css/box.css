@@ -1,0 +1,17 @@
+.box i{
+    margin: 10px;
+    padding: 10px;
+    border: currentColor solid 5px;
+    border-radius: 10px;
+    width: max-content;
+    height: auto;
+    text-align: center;
+    box-shadow: var(--border-1);
+    text-shadow: var(--neon-2);
+}
+.box i:hover{
+    margin-right: .25ch;
+    margin-top: 1ch;
+    box-shadow: var(--neon-3);
+    text-shadow: var(--neon-3)
+}
