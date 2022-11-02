@@ -41,7 +41,7 @@ p{
   text-shadow:var(--neon-3);
   font-size: 20px;
 }
-footer{
+.copy a{
   text-shadow:var(--neon-1);
 }
 h1,h2,h3,h4,h5,h6{
