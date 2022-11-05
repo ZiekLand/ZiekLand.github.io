@@ -1,12 +1,16 @@
 nav {
     background: #202225;
     float: left;
-    height: 100%;
+    left: 0;
+    height: auto;
     width: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
+    position: fixed;
+    border-radius: 50px;
+    margin: 10px;
   }
 
 nav a {
@@ -16,8 +20,10 @@ nav a {
     border-radius: 50%;
     background: #36393f;
     margin: 0;
-    margin-left: 7.5px;
-    margin-right: 7.5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 7.5px;
+      margin-right: 7.5px;
     position: relative;
   }
 
