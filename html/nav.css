@@ -27,8 +27,8 @@ nav a {
   border-radius: 50%;
   background: #36393f;
   margin: 0;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 7.5px;
+  margin-bottom: 7.5px;
   margin-left: 7.5px;
   margin-right: 7.5px;
   position: relative;
@@ -55,29 +55,40 @@ nav a:hover {
   background: #3ba55d;
 }
 
-a .tooltip {
+.tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px black;
 }
 
-a .tooltip .tooltiptext {
+.tooltip .tooltiptext {
   transition: 250ms;
   opacity: 0%;
   width: auto;
-  background-color: darkgray;
+  background-color: black;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 5px;
+  margin: 5px;
   border-radius: 6px;
   position: absolute;
 }
 
-a .tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext {
   transition: 250ms;
   opacity: 100%;
 }
 
+h6 {
+  display: none;
+}
+@media only screen and (max-width: 1000px){
+  h6{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+}
 .icon {
   margin: -10px;
 }

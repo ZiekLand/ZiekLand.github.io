@@ -1,4 +1,5 @@
 .box i{
+    transition: 250ms;
     margin: 5px;
     padding: 5px;
     border: currentColor solid 5px;
@@ -10,6 +11,7 @@
     text-shadow: var(--neon-2);
 }
 .box i:hover{
+    transition: 250ms;
     margin-right: .25ch;
     margin-top: 1ch;
     box-shadow: var(--neon-3);

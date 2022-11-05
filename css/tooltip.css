@@ -1,21 +1,23 @@
-
-.tooltip {
+.text {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;0.
+  border-bottom: 1px black;
 }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
+.text .texthover {
+  transition: 250ms;
+  opacity: 0%;
+  width: auto;
   background-color: black;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 5px;
+  margin: 5px;
   border-radius: 6px;
   position: absolute;
   z-index: 1;
 }
-.tooltip:hover .tooltiptext {
-  visibility: visible;
+.text:hover .texthover {
+  transition: 250ms;
+  opacity: 100%;
 }
