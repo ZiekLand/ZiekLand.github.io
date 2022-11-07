@@ -1,0 +1,27 @@
+:root{
+    --plain: #444;
+    --shadow: -5px 5px 5px currentColor;
+}
+body{
+    margin: auto;
+    padding: auto;
+    background-image: url('https://img.freepik.com/free-vector/leaves-background-with-metallic-foil_79603-914.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1, h3{text-align: center;}
+h3{color:black;}
+div{font-size: smaller;}
+img{width: 30ch; border-radius: 1ch;}
+.box_l b, .box_r b{color: brown;}
+.box_l, .box_r{
+    border: 5px solid black;
+    border-radius: 4ch;
+    padding: 10px;
+    width: 50ch;
+    background-image: linear-gradient(45deg, red, pink, lime);
+    color: currentColor;
+}
+.box_l{margin: auto; margin-left: 5ch;}
+.box_r{margin: auto; margin-right: 5ch;}
