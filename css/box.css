@@ -12,7 +12,7 @@
 }
 .box i:hover{
     transition: 250ms;
-    margin-right: .25ch;
+    margin-right: -.25ch;
     margin-top: 1ch;
     box-shadow: var(--neon-3);
     text-shadow: var(--neon-3)
