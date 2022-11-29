@@ -1,0 +1,55 @@
+:root{
+    --bg: #444;
+    --img: url('https://images.squarespace-cdn.com/content/v1/622c58941f20216b767a2a9e/1647073655601-BSI2MMECXF4RHGRMAF5N/275243629_1107169353397506_2204452614423368802_n.jpg?');
+}
+
+body{
+    background: var(--bg);
+}
+
+div{
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 312.5px;
+    width: auto;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+}
+div code{
+    border: 10px solid gray;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 10px;
+}
+
+div.img{
+    background: var(--img);
+}
+div.bg{
+    background-color: white;
+}
+div.bg-position{
+    background-image: var(--img);
+    background-position: top right;
+}
+div.bg-size{
+    background-image: var(--img);
+    background-size: cover;
+}
+div.bg-repeat{
+    background-image: var(--img);
+    background-size: 50%;
+    background-repeat: repeat;
+}
+div.bg-no-repeat{
+    background-image: var(--img);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+div.bg-attach{
+    background-image: var(--img);
+    background-attachment: scroll;
+}
+div.bg-all{
+    background: var(--img) left/1000px 250px no-repeat;
+}
