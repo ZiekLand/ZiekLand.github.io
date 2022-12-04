@@ -8,34 +8,34 @@
   <title>Document</title>
 </head>
 <body>
-      <p id="count">Get ready in 5 seconds...</p>
+      <p id="count">Loading... 0%</p>
 <script>
 setTimeout(count1, 1000)
 
 
 function count1() {
   let text = document.getElementById("count").innerHTML;
-  document.getElementById("count").innerHTML = text.replace("5", "4");
+  document.getElementById("count").innerHTML = text.replace("... 0", ". 10");
   setTimeout(count2, 1000)
 }
 function count2() {
   let text = document.getElementById("count").innerHTML;
-  document.getElementById("count").innerHTML = text.replace("4", "3");
+  document.getElementById("count").innerHTML = text.replace(". 10", ".. 25");
   setTimeout(count3, 1000)
 }
 function count3() {
   let text = document.getElementById("count").innerHTML;
-  document.getElementById("count").innerHTML = text.replace("3", "2");
+  document.getElementById("count").innerHTML = text.replace(".. 25", "... 50");
   setTimeout(count4, 1000)
 }
 function count4() {
   let text = document.getElementById("count").innerHTML;
-  document.getElementById("count").innerHTML = text.replace("2", "1");
+  document.getElementById("count").innerHTML = text.replace("... 50", ". 75");
   setTimeout(count5, 1000)
 }
 function count5() {
   let text = document.getElementById("count").innerHTML;
-  document.getElementById("count").innerHTML = text.replace("1", "0");
+  document.getElementById("count").innerHTML = text.replace(". 75", ".. 100");
 }
 </script>
 </body>
