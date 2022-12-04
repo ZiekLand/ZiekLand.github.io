@@ -4,11 +4,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="5; url=https://youtu.be/DUmcisXhahQ?t=16s">
   <title>Document</title>
 </head>
 <body>
-  <script>
-  window.location.assign("https://youtu.be/DUmcisXhahQ?t=16s")
-  </script>
+      <p id="count">Get ready in 5 seconds...</p>
+<script>
+setTimeout(count1, 1000)
+
+
+function count1() {
+  let text = document.getElementById("count").innerHTML;
+  document.getElementById("count").innerHTML = text.replace("5", "4");
+  setTimeout(count2, 1000)
+}
+function count2() {
+  let text = document.getElementById("count").innerHTML;
+  document.getElementById("count").innerHTML = text.replace("4", "3");
+  setTimeout(count3, 1000)
+}
+function count3() {
+  let text = document.getElementById("count").innerHTML;
+  document.getElementById("count").innerHTML = text.replace("3", "2");
+  setTimeout(count4, 1000)
+}
+function count4() {
+  let text = document.getElementById("count").innerHTML;
+  document.getElementById("count").innerHTML = text.replace("2", "1");
+  setTimeout(count5, 1000)
+}
+function count5() {
+  let text = document.getElementById("count").innerHTML;
+  document.getElementById("count").innerHTML = text.replace("1", "0");
+}
+</script>
 </body>
 </html>
