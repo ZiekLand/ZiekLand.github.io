@@ -108,7 +108,6 @@ p .note{
   height: auto;
   text-align: center;
   box-shadow: var(--border-1);
-  text-shadow: var(--neon-2);
   font-size: 25px;
 }
 .box i:hover{
