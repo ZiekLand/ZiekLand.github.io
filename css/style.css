@@ -29,6 +29,7 @@ html,body{
   height: 100ch;
   margin: 0;
   padding: 0;
+    padding-top: 10%;
   background-color:var(--background-1);
   color:var(--color-1);
   letter-spacing:2px;
