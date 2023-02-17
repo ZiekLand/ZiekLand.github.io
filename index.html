@@ -16,9 +16,9 @@
 </head>
 
 <body id="home">
+
   <nav source="html/nav.html"></nav>
   <h1 style="color:yellow">ZiekLand</h1>
-
 
   <hr style="height:2px;">
   <div id="about"></div>
@@ -34,23 +34,18 @@
 
   <footer class="copy"><span class="text"><a href="https://github.com/ZiekLand">Github &copy;2022<span class="texthover">Test</span></span></a></footer>
 
-
   <p class="box_note" style="color:hotpink"><b class="note">NOTE: This is not a copy of discord. This is just the design I like</b></p>
-</body>
 
 <!-- Messenger Chat Plugin Code -->
 <div id="fb-root"></div>
-
 <!-- Your Chat Plugin code -->
 <div id="fb-customer-chat" class="fb-customerchat">
 </div>
-
 <script>
   var chatbox = document.getElementById('fb-customer-chat');
   chatbox.setAttribute("page_id", "102608035172494");
   chatbox.setAttribute("attribution", "biz_inbox");
 </script>
-
 <!-- Your SDK code -->
 <script>
   window.fbAsyncInit = function() {
@@ -59,7 +54,6 @@
       version          : 'v15.0'
     });
   };
-
   (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
@@ -68,6 +62,10 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
+
+</body>
+
+
 
   <script>includeHTML();</script>
   
