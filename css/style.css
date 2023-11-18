@@ -64,61 +64,6 @@ p .note{
   color: currentColor;
 }
 
-.fa{
-  padding: 0.5rem;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-/* Tooltip */
-.text {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px black;
-}
-
-.text .texthover {
-  transition: 250ms;
-  opacity: 0%;
-  width: auto;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 6px;
-  position: absolute;
-  z-index: 1;
-}
-.text:hover .texthover {
-  transition: 250ms;
-  opacity: 100%;
-}
-
-/* Box */
-.box i{
-  transition: 250ms;
-  margin: 5px;
-  padding: 5px;
-  border: currentColor solid 5px;
-  border-radius: 10px;
-  width: 50%;
-  height: auto;
-  text-align: center;
-  box-shadow: var(--border-1);
-  font-size: 25px;
-}
-.box i:hover{
-  transition: 250ms;
-  margin-right: -.25ch;
-  margin-top: 1ch;
-  box-shadow: var(--neon-3);
-  text-shadow: var(--neon-3)
-}
-
 /* Mobile Friendlyness */
 @media screen and (max-width: 600px) {
   hr{
