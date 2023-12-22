@@ -77,8 +77,8 @@
     border-radius: 50px;
     color: #fff;
     font-size: 36em;
-    text-shadow: 5px 5px #ff3353fc,
-                 -5px -5px cyan;
+    text-shadow: 3px 3px #ff3353fc,
+                 -3px -3px cyan;
 }
 
 .tw i {
