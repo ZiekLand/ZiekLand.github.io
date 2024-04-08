@@ -79,16 +79,14 @@ nav a:hover {
   opacity: 100%;
 }
 
-h6 {
-  display: none;
-}
-@media only screen and (max-width: 1000px){
-  h6{
-    display: block;
-    margin-top: 10px;
-    margin-bottom: -10px;
-  }
-}
 .icon {
-  margin: -10px;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1000px){
+  .tooltiptext{
+    display: none;
+  }
 }

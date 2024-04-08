@@ -7,6 +7,15 @@
     border-radius: 50%;
 }
 
+.container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.ico {
+    display: flex;
+}
 /* Tooltip */
 .text {
     position: relative;
@@ -77,10 +86,12 @@
 
 
 .ig i {
-    background-color: grey;
+    background: radial-gradient(circle at 30% 107%, #ffffff 0%, #a8a8a8 5%, #6b6b6b 45%, #636363 60%, #000000 90%);
     border-radius: 20px;
+    transition: 250ms;
 }
 .ig i:hover {
+    transition: 250ms;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     color: white;
     box-shadow: 0 0 15px pink;
