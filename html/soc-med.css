@@ -39,8 +39,8 @@
     margin: 5px;
     padding: 5px;
     /* border: currentColor solid 5px; */
-    width: auto;
-    height: auto;
+    width: 60px;
+    height: 50px;
     text-align: center;
     font-size: 50px;
     position: inherit;
@@ -49,38 +49,57 @@
 .box i:hover {
     transition: 250ms;
     /* border: currentColor solid 5px; */
-    box-shadow: 0 0 15px currentColor;
+    box-shadow: 0 0 15px white;
 }
 
 .yt i {
     background-color: white;
     border-radius: 15px;
+    color: gray;
+}
+.yt i:hover {
+    background-color: white;
     color: red;
+    box-shadow: 0 0 15px red;
 }
 
 .fb i {
     border-radius: 20px;
     background: white;
+    color: black;
+}
+.fb i:hover {
+    background-color: white;
     color: blue;
+    box-shadow: 0 0 15px blue;
 }
 
+
+
 .ig i {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-color: grey;
     border-radius: 20px;
+}
+.ig i:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+    box-shadow: 0 0 15px pink;
 }
 
 .tt i {
-    width: 40px;
+    background-color: black;
 }
 
 .fa-tiktok {
-    border-radius: 50px;
+    border-radius: 10px;
     color: #fff;
-    font-size: 36em;
-    text-shadow: 3px 3px #ff3353fc,
-                 -3px -3px cyan;
+    font-size: 30em;
+    text-shadow: 2px 2px black,
+                 -2px -2px grey;
 }
 
-.tw i {
-    border-radius: 50px;
+.fa-tiktok:hover {
+    color: #fff;
+    text-shadow: 3px 3px #ff3353fc,
+                 -3px -3px cyan;
 }
