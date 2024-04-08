@@ -47,12 +47,12 @@ nav hr {
 nav a:hover,
 nav a.active {
   border-radius: 25%;
-  background: #3ba55d;
+  background: #9ea53b;
 }
 
 nav a:hover {
   transition: 250ms;
-  background: #3ba55d;
+  background: #9ea53b;
 }
 
 .tooltip {
