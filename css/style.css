@@ -70,19 +70,6 @@ p .note {
   color: currentColor;
 }
 
-/* Mobile Friendlyness */
-@media screen and (max-width: 600px) {
-  hr {
-    width: 100%;
-  }
-
-  p.intro {
-    text-align: center;
-    width: 20ch;
-    margin: auto;
-  }
-}
-
 /* Scroll Bar */
 ::-webkit-scrollbar {
   width: 12px;
